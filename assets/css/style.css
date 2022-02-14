@@ -177,6 +177,25 @@ section {
   margin-top: 3px;
 }
 
+@media (max-width: 441px) {
+  .header .logo span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header .logo span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 306px) {
+  .header .logo span {
+    font-size: 14px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -2033,4 +2052,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+@media (max-width: 314px) {
+  .footer .footer-top .footer-info .logo span {
+    font-size: 28px;
+  }
 }
